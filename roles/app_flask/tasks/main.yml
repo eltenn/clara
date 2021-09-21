@@ -1,0 +1,5 @@
+---
+# tasks file for app_flask
+      
+    - name: "run daemon image du docker appelant l'app"
+      shell: "docker run -d -p 5000:5000 flaskimage"

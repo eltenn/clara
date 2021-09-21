@@ -1,0 +1,6 @@
+--- 
+- 
+  hosts: localhost
+  name: "plabook lancement flask en local foreground"
+  roles:
+    - app_flask
