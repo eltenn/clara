@@ -9,4 +9,4 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 COPY . .
 ENTRYPOINT ["python3"]
-CMD ["../../app.py"]
+CMD ["../../app/app.py"]
